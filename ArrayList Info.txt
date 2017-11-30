@@ -1,0 +1,25 @@
+What is an arraylist? Complete the following questions:
+
+
+1. What is an arraylist?
+
+	an array that is resizable 
+2. How do you declare an arraylist?
+
+	ArrayList() 
+	ArrayList(int capacity)
+	ArrayList(Collection c)
+3. How is an arraylist similar/different from an array?
+
+	an array and an ArrayList has a collection of elements, but ArrayList can change size (grow/shrink) witch 
+4. What are some important methods to use with an arraylist?
+	void clear()
+		removes all elements from array
+	int size()
+		returns # of elements 
+	Object clone()
+		returns a copy
+	boolean add(int index, Object element) 
+         	Inserts the specified element at the specified position in this ArrayList.
+	Object	get(int index) 
+         	Returns the element at the specified position in this ArrayList.
